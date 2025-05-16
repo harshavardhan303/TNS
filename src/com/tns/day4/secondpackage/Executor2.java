@@ -2,8 +2,9 @@ package com.tns.day4.secondpackage;
 
 import com.tns.day4.firstpackage.Base;
 
-public class Executor2 {
-
+public class Executor2 extends Base {
+	
+	
 	public static void main(String[] args) {
 		Base obj = new Base();
 		//obj.varProtected=2;
